@@ -1,0 +1,183 @@
+header {
+  background: #ebcc80;
+  border: 4px solid black;
+  padding: 20px 0;
+}
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 50px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+}
+.productos h2 {
+  font-size: 30px;
+}
+.producto-descripcion {
+  font-size: 18px;
+}
+.productos li:hover h2 {
+  color: #a18c57;
+  border-color: #a18c57;
+  font-size: 35px;
+}
+.producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+nav a:hover {
+  color: #a18c57;
+  text-decoration: underline;
+}
+.productos li:hover {
+  color: #a18c57;
+  border-color: #a18c57;
+}
+.productos li:active {
+  color: green;
+  border-color: green;
+}
+footer {
+  text-align: center;
+  background: url(imagenes/imagenes/bg.jpg);
+  padding: 50px;
+}
+.Copyriright {
+  color: aliceblue;
+  font-size: 13px;
+  margin: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+form {
+  margin: 40px 0;
+}
+form label,
+p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 4px;
+}
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+form p {
+  font-size: 20px;
+  margin: 12px;
+}
+.checkbox {
+  margin: 20px 0;
+}
+
+.boton {
+  width: 57%;
+  padding: 2% 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background: rgb(255, 124, 1);
+  transform: scale(1.2);
+  transform: rotate(2deg);
+}
+p {
+  text-align: center;
+}
+#mision {
+  font-size: 20px;
+}
+body {
+  background: solid black;
+}
+em strong {
+  color: rgba(150, 99, 5, 0.979);
+}
+#banner {
+  width: 100%;
+  height: 100%;
+}
+.sobrenosotros {
+  border: 4px solid black;
+ }
+.items {
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(114, 74, 0, 0.979);
+}
+.principal .sobrenosotros {
+  font-size: 30px;
+  text-align: center;
+  background:#ebcc80;
+  padding: 20px;
+  height: 40px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.diferenciales {
+  background: #ebcc80;
+  border: 4px solid black;
+  padding: 30px;
+  margin: 0px;
+  font-size: 150%;
+}
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 20%;
+}
+.fotodiferenciales {
+  width: 50%;
+  height: 100%;
+}
